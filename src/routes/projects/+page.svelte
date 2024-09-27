@@ -22,7 +22,7 @@ platform, this app integrates various functionalities through method channels fo
 performance and user satisfaction.`}
     image={"images/beatz.jpg"}
     techStack={"Flutter"}
-    codeLink={"https://github.com/rans-rans/beatzs"}
+    codeLink={"https://github.com/rans-rans/beatz"}
   />
   <Project
     title="Nutfs Decides"
