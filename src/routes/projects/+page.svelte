@@ -1,5 +1,6 @@
 <script>
   import Project from "./components/project.svelte";
+  import { PROGRAMMINGTOOLS } from "./data";
 </script>
 
 <div class="flex flex-col gap-12">
@@ -35,4 +36,26 @@ with firebase hosting.`}
     techStack={"React"}
     codeLink={"https://nutfs-b0f19.web.app/login"}
   />
+  <section class="tools_created">
+    <p class="p-2 font-bold text-[32px]">Tools Created</p>
+    <div class="flex gap-4 flex-wrap p-6">
+      {#each PROGRAMMINGTOOLS as tool}
+        <div
+          class="flex gap-[1rem] items-center max-w-[550px] p-1 border border-black border-solid"
+        >
+          <div class="w-[55%] flex flex-col gap-1">
+            <img alt="" class="w-full" src={tool.imgUrl} />
+            <a href={tool.toolLink} target="_blank">
+              <div
+                class="p-1 rounded-[5px] border border-black border-solid flex justify-center items-center"
+              >
+                View
+              </div>
+            </a>
+          </div>
+          <p class="w-[45%] text-justify">{tool.description}</p>
+        </div>
+      {/each}
+    </div>
+  </section>
 </div>
