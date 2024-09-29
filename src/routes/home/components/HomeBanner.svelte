@@ -12,7 +12,7 @@
 
 <style>
   .bbrand::before {
-    background: url("/images/brand.jpg");
+    background: url("/src/assets/images/brand.jpg");
     content: "";
     position: absolute;
     top: 0;

@@ -1,5 +1,18 @@
 <script>
-  import { skillCardData } from "../variables";
+
+  const skillCardData = [
+    {
+      img: "https://www.dice.com/binaries/medium/content/gallery/dice/insights/2020/02/shutterstock_1490302805.jpg",
+      text1: "Mobile App Developer",
+      text2: "I create mobile application for both android and IOS platforms",
+    },
+    {
+      img: "https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2021/03/CDG_blog_post_image_01-850x412.jpg",
+      text1: "Website Developer",
+      text2:
+        "For your responsive ecommerce, portfolios, personal blog, content creation or any other website, I've got you covered.",
+    },
+  ];
 </script>
 
 <section>
@@ -7,7 +20,7 @@
     class="mt-[5rem] p-[3rem]
     grid grid-cols-[1fr] gap-4 justify-around
     md:flex md:justify-start md:flex-wrap
-    " 
+    "
   >
     {#each skillCardData as skillData}
       <div

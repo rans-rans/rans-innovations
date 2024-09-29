@@ -1,15 +1,19 @@
 <script>
+  import gitIcon from "/src/assets/icons/github.svg";
+  import instaIcon from "/src/assets/icons/instagram.svg";
+  import linkedinIcon from "/src/assets/icons/linkedin.svg";
+
   let socials = [
     {
-      path: "icons/github.svg",
+      path: gitIcon,
       link: "https://github.com/rans-rans",
     },
     {
-      path: "icons/instagram.svg",
+      path: instaIcon,
       link: "https://www.instagram.com/ransinnovations/",
     },
     {
-      path: "icons/linkedin.svg",
+      path: linkedinIcon,
       link: "www.linkedin.com/in/ransford-owusu-ansah-bb572b213",
     },
   ];

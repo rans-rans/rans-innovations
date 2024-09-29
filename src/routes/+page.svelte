@@ -5,7 +5,7 @@
 </script>
 
 <main>
-  <HomeBanner />
+  <HomeBanner/>
   <WorksWithItems />
   <SkillCards />
 </main>
