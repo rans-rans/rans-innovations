@@ -1,7 +1,6 @@
 <script>
+	import { IMAGES } from './../../../assets/index.js';
   import { bio } from "../data";
-
-  import meHero from "/src/assets/images/me_hero.jpg";
 </script>
 
 <div
@@ -18,5 +17,5 @@
       {bio}
     </p>
   </div>
-  <img src={meHero} alt="" class="w-[250px] sm:w-[300px] md:w-[350px]" />
+  <img src={IMAGES.meHero} alt="" class="w-[250px] sm:w-[300px] md:w-[350px]" />
 </div>

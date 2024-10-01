@@ -12,7 +12,7 @@
 
 <style>
   .bbrand::before {
-    background: url("/src/assets/images/brand.jpg");
+    background: url("https://firebasestorage.googleapis.com/v0/b/rans-profolio.appspot.com/o/images%2Fbrand.jpg?alt=media&token=91124818-ff82-4d14-b88d-d6e65e79f1a6");
     content: "";
     position: absolute;
     top: 0;
